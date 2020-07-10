@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -14,6 +15,7 @@ import com.dianavintila.comewithme___cityguide.HelperClases.HomeAdapter.Featured
 import com.dianavintila.comewithme___cityguide.HelperClases.HomeAdapter.MostViewedAdapter;
 import com.dianavintila.comewithme___cityguide.HelperClases.HomeAdapter.MostViewedHelperClass;
 import com.dianavintila.comewithme___cityguide.R;
+import com.google.android.material.navigation.NavigationView;
 
 import java.util.ArrayList;
 
@@ -26,6 +28,10 @@ public class UserDashboard extends AppCompatActivity {
     //
     RecyclerView categoriesRecycler;
     RecyclerView.Adapter adapter2;
+
+    //Drawer Menu
+    DrawerLayout drawerLayout;
+    NavigationView navigationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,10 +46,17 @@ public class UserDashboard extends AppCompatActivity {
 
         categoriesRecycler = findViewById(R.id.categories_recycler);
 
+        //Menu HOOKS
+        drawerLayout=findViewById(R.id.drawer_layout);
+        navigationView=findViewById(R.id.navigation_view);
+
+        // Recycler view function calls
         featuredRecycler();
         mostViewedRecycler();
         categoriesRecycler();
     }
+
+
     private void featuredRecycler(){
         featuredRecycler.setHasFixedSize(true);
         featuredRecycler.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false));
