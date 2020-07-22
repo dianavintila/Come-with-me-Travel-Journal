@@ -4,5 +4,3 @@
  
  ## Description:
  ## Technologies:
-Libraries & Dependencies
-Support libraries: appcompat / recyclerview / constraintlayout
