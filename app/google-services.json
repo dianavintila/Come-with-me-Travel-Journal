@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1082368514964",
+    "firebase_url": "https://come-with-me---travel-journal.firebaseio.com",
+    "project_id": "come-with-me---travel-journal",
+    "storage_bucket": "come-with-me---travel-journal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082368514964:android:d38b012e35d9834c380d81",
+        "android_client_info": {
+          "package_name": "com.dianavintila.comewithme___traveljournal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082368514964-in8444p5kob5l3rcb7votrmah9m9e3eb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4wgT4Lc-5A_FUxwIy-EuYCfceHELQeoU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082368514964-in8444p5kob5l3rcb7votrmah9m9e3eb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

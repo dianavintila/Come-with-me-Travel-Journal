@@ -5,7 +5,7 @@ android {
     buildToolsVersion "30.0.0"
 
     defaultConfig {
-        applicationId "com.dianavintila.comewithme___cityguide"
+        applicationId "com.dianavintila.comewithme___traveljournal"
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 1
