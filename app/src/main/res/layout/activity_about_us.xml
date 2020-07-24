@@ -4,7 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context="com.dianavintila.comewithme___traveljournal.User.AboutUs"
+=======
+    tools:context="com.dianavintila.comewithme___traveljurnal.User.AboutUs"
+>>>>>>> fa2d614d6715bef9a385efeebea8f5a8c7e817b9
     android:background="@drawable/aboutuss"
     android:id="@+id/nav_aboutus">
 
