@@ -42,4 +42,11 @@
     <string name="chocolat_desc">Chocolat is one of the best dessert shops in Bucharest</string>
     <string name="linea_desc">An iconic restaurant and rooftop bar, famous for it"'"s breathtaking view, located in the heart of Bucharest - steps away from the Old Town.</string>
 
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
 </resources>

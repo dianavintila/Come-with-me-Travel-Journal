@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".User.UserDashboard"
+    tools:context="com.dianavintila.comewithme___traveljournal.User.UserDashboard"
     android:orientation="vertical"
     android:background="#fefff9"
     tools:openDrawer="start"
@@ -17,9 +17,11 @@
         android:background="@color/lightWhite"
         android:layout_gravity="start"
         app:headerLayout="@layout/menu_header"
+        android:theme="@style/navigationTheme"
         app:menu="@menu/main_menu" />
 
     <LinearLayout
+        android:id="@+id/content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/home_background"
@@ -31,20 +33,21 @@
         android:layout_height="wrap_content">
 
         <ImageView
+            android:id="@+id/menu_icon"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_centerVertical="true"
             android:layout_marginLeft="5dp"
-            android:background="#ffff"
+            android:background="@color/lightWhite"
             android:src="@drawable/menu_icon" />
-        <ImageView
+        <Button
+            android:id="@+id/button_addtrip"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:src="@drawable/add"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:padding="5dp"
-            android:background="#ffff" />
+            android:background="@drawable/add" />
 
 
     </RelativeLayout>
@@ -248,7 +251,7 @@
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
+                        android:layout_marginLeft="8dp"
                         android:layout_marginTop="20dp"
                         android:background="#ffff">
 
