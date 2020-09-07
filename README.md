@@ -3,6 +3,6 @@
  ## Description: Come with me -Travel Journal is an app that allows to save trips. 
  
  ## Technologies:
- Firebase
- Android STudio
- Java
+ Firebase </br>
+ Android Studio </br>
+ Java </br>
